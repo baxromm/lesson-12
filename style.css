@@ -1,0 +1,82 @@
+/* Umumiy sozlamalar */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    justify-content: center;
+}
+
+/* Navbar */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background-color: #fff;
+    font-weight: bold;
+    border-bottom: 1px solid #ccc;
+    justify-content: center;
+}
+
+.nav-items {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
+
+.logo {
+    font-weight: bold;
+    justify-content: center;
+}
+
+/* Main Section */
+.section {
+    margin: 20px 0;
+    justify-content: center;
+}
+
+.section h1 {
+    margin-bottom: 20px;
+    font-size: 24px;
+    font-weight: bold;
+    justify-content: center;
+}
+
+.content {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+.box {
+    width: 200px;
+    height: 200px;
+    background-color: red;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+    font-weight: bold;
+    justify-content: center;
+}
+
+/* Footer */
+.footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background-color: #fff;
+    font-weight: bold;
+    border-top: 1px solid #ccc;
+    justify-content: center;
+}
+
+.footer-items {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
